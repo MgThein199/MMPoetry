@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_rotate_screen"
+        android:icon="@drawable/ic_rotate_screen"
+        app:showAsAction="never"
+        android:title="Rotate Screen">
+        <menu>
+            <item
+                android:id="@+id/menu_auto"
+                android:title="Auto"
+                android:icon="@drawable/ic_rotate_screen"
+                android:orderInCategory="101"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/menu_portrait"
+                android:title="Portrait"
+                android:icon="@drawable/ic_portrait"
+                android:orderInCategory="102"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/menu_landscape"
+                android:title="Landscape"
+                android:orderInCategory="103"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_landscape"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_fullscreen"
+        android:icon="@drawable/ic_fullscreen"
+        android:title="Fullscreen"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_change_text_size"
+        android:title="Change Text Size"
+        android:icon="@drawable/ic_font_size"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/text_size_micro"
+                    android:title="Micro" />
+                <item
+                    android:id="@+id/text_size_tiny"
+                    android:title="Tiny" />
+                <item
+                    android:id="@+id/text_size_small"
+                    android:title="Small" />
+                <item
+                    android:id="@+id/text_size_normal"
+                    android:title="Normal" />
+                <item
+                    android:id="@+id/text_size_medium"
+                    android:title="Medium" />
+                <item
+                    android:id="@+id/text_size_big"
+                    android:title="Big" />
+                <item
+                    android:id="@+id/text_size_large"
+                    android:title="Large" />
+            </group>
+        </menu>
+    </item>
+</menu>

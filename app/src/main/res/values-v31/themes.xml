@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.JsonTest" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+
+        <item name="android:statusBarColor">@color/colorStatusBar</item>
+        <item name="android:windowBackground">@color/colorLayoutBackground</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorText</item>
+        <item name="backgroundColor">@color/colorLayoutBackground</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.SplashScreen">
+        <!-- Customize your splash screen theme attributes here -->
+
+        <!-- Set the background color for the splash screen -->
+        <item name="android:windowBackground">@drawable/splash_background</item>
+
+        <!-- Customize the window enter animation -->
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+
+        <!-- Customize the window exit animation -->
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+
+        <!-- Customize the window splash exit animation (when transitioning to the main activity) -->
+        <!--<item name="android:windowSplashExitAnimation">@android:anim/fade_out</item>-->
+
+        <!-- Set a custom splash screen overlay (optional) -->
+        <!-- For example, you can show a logo or an image on top of the background -->
+        <!--<item name="android:windowContentOverlay">@mipmap/ic_launcher_round</item>-->
+
+        <!-- Customize the status bar color during the splash screen -->
+        <!-- <item name="android:statusBarColor">@color/colorLayoutBackgroundSepia</item> -->
+        <item name="postSplashScreenTheme">@style/Theme.JsonTest</item>
+        <!-- Customize the navigation bar color during the splash screen -->
+        <!-- <item name="android:navigationBarColor">@color/colorLayoutBackgroundSepia</item> -->
+         <item name="android:windowSplashScreenBackground">@drawable/splash_background</item>
+         <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+         <item name="android:windowSplashScreenAnimationDuration">1000</item>
+     </style>
+     <style name="Theme.JsonTest" parent="Base.Theme.JsonTest" />
+ </resources>

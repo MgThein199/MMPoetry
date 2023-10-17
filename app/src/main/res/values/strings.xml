@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">မြန်မာကဗျာ</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choose_language">Choose Language …</string>
+    <string name="english">English</string>
+    <string name="myanmar">Myanmar</string>
+    <string name="content">Content</string>
+    <string name="language">Language</string>
+    <string name="acknowledgements">Acknowledgements</string>
+    <string name="copyright">Copyright</string>
+    <string name="about">About</string>
+    <string name="manual_screen_orientation_enabled">Manual screen orientation enabled</string>
+    <string name="manual_text_size_change_enabled">You can change text size</string>
+    <string name="interface_language">Interface Language</string>
+    <string name="enable_dark_mode">Enable Dark Mode</string>
+    <string name="disable_dark_mode">Disable Dark Mode</string>
+
+</resources>

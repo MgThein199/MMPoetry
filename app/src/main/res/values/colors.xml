@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0D47A1</color>
+    <color name="colorPrimaryDark">#000B63</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorActionBar">@color/colorPrimary</color>
+    <color name="colorStatusBar">@color/colorPrimaryDark</color>
+    <color name="colorText">#000000</color>
+    <color name="colorHeading">#052982</color>
+    <color name="colorSubHeading">#052982</color>
+    <color name="colorCaption">#052982</color>
+    <color name="colorCategoryListItemText">#6200EA</color>
+    <color name="colorBookListItemText">#4A148C</color>
+    <color name="colorItemBackground">#E0E0E0</color>
+    <color name="colorLayoutBackground">#F4F4F4</color>
+    <color name="colorToolbarTitle">#333333</color>
+    <color name="colorToolbarBackground">#E0E0E0</color>
+    <color name="placeholder_color">#FFAABB</color>
+    <color name="startColorBg">#FD9D48</color>
+    <color name="endColorBg">#16F1F1</color>
+    <color name="colorNavHeaderText">#FFFFFF</color>
+    <color name="colorWindowBackground">#FFFFFF</color>
+
+    <color name="splashBackground">#FFFFFF</color>
+    <color name="colorPrimarySepia">#4E342E</color>
+    <color name="colorPrimaryDarkSepia">#3E2723</color>
+    <color name="colorAccentSepia">#3E2723</color>
+    <color name="colorActionBarSepia">@color/colorPrimary</color>
+    <color name="colorStatusBarSepia">@color/colorPrimaryDark</color>
+    <color name="colorTextSepia">#5A4129</color>
+    <color name="colorHeadingSepia">#513A24</color>
+    <color name="colorSubHeadingSepia">#513A24</color>
+    <color name="colorCaptionSepia">#5A4129</color>
+    <color name="colorCategoryListItemTextSepia">#513A24</color>
+    <color name="colorBookListItemTextSepia">#513A24</color>
+    <color name="colorItemBackgroundSepia">#DCCBAD</color>
+    <color name="colorLayoutBackgroundSepia">#E9D8BA</color>
+    <color name="colorToolbarTitleSepia">#8B4513</color>
+    <color name="colorToolbarBackgroundSepia">#FAEBD7</color>
+    <color name="placeholder_colorSepia">#FFAABB</color>
+    <color name="startColorBgSepia">#16F1F1</color>
+    <color name="endColorBgSepia">#FD9D48</color>
+    <color name="colorNavHeaderTextSepia">#513A24</color>
+    <color name="colorWindowBackgroundSepia">#E9D8BA</color>
+</resources>

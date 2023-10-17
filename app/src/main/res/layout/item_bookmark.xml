@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Display the book title -->
+    <TextView
+        android:id="@+id/text_view_book_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Add more TextViews or views to display other bookmark details -->
+    <!-- For example, you can display author, publication date, or any other relevant information -->
+
+</LinearLayout>

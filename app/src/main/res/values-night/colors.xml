@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#181818</color>
+    <color name="colorPrimaryDark">#121212</color>
+    <color name="colorAccent">#121212</color>
+    <color name="colorActionBar">@color/colorPrimary</color>
+    <color name="colorStatusBar">@color/colorPrimaryDark</color>
+    <color name="colorText">#E0E0E0</color>
+    <color name="colorHeading">#E0E0E0</color>
+    <color name="colorSubHeading">#E0E0E0</color>
+    <color name="colorCaption">#E0E0E0</color>
+    <color name="colorCategoryListItemText">#FFFFFF</color>
+    <color name="colorBookListItemText">#FFFFFF</color>
+    <color name="colorItemBackground">#333333</color>
+    <color name="colorLayoutBackground">#000000</color>
+    <color name="colorToolbarTitle">#FFFFFF</color>
+    <color name="colorToolbarBackground">#333333</color>
+    <color name="placeholder_color">#FFAABB</color>
+    <color name="startColorBg">#751111</color>
+    <color name="endColorBg">#E9D8BA</color>
+    <color name="colorNavHeaderText">#FFFFFF</color>
+    <color name="colorWindowBackground">#FFFFFF</color>
+</resources>

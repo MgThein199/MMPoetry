@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">မြန်မာကဗျာ</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choose_language">ဘာသာစကားရွေးချယ်ပါ …</string>
+    <string name="english">အင်္ဂလိပ်</string>
+    <string name="myanmar">မြန်မာ</string>
+    <string name="content">မာတိကာ</string>
+    <string name="language">ဘာသာစကား</string>
+    <string name="acknowledgements">အသုံးပြုနည်း</string>
+    <string name="copyright">မူပိုင်ခွင့်</string>
+    <string name="about">ဖန်တီးမှု အကြောင်း</string>
+    <string name="manual_screen_orientation_enabled">မျက်နှာပြင်လှည့်ခြင်းကို ကိုင်တိုင်သတ်မှတ်နိုင်ပါပြီ</string>
+    <string name="manual_text_size_change_enabled">အသုံးပြုလိုသော စာသားအရွယ်အစား ရွေးနိုင်ပါပြီ</string>
+    <string name="interface_language">ဘာသာစကားရွေးချယ်ပါ</string>
+    <string name="enable_dark_mode">Dark Mode ပြောင်းရန်</string>
+    <string name="disable_dark_mode">Light Mode ပြောင်းရန်</string>
+</resources>

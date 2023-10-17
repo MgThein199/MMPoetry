@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.BookListActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLayoutBackground"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorToolbarBackground"
+        android:elevation="4dp"
+        app:navigationIcon="@drawable/ic_arrow"
+        app:titleTextColor="@color/colorToolbarTitle"
+        app:titleTextAppearance="@style/CustomToolbarTitle"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+        <ListView
+            android:id="@+id/bookListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/colorLayoutBackground"
+            android:dividerHeight="4dp"
+            android:padding="10dp"
+            android:scrollIndicators="right"/>
+    </LinearLayout>
